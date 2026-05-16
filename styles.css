@@ -27,6 +27,8 @@
 
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
+    width: 100%;
 }
 
 body {
@@ -35,6 +37,7 @@ body {
     color: var(--text-main);
     line-height: 1.6;
     overflow-x: hidden;
+    width: 100%;
 }
 
 /* Typography */
@@ -495,6 +498,10 @@ footer p {
 }
 
 @media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2.2rem;
+    }
+
     .hamburger {
         display: flex;
     }
